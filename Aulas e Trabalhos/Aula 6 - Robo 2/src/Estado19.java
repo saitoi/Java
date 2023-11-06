@@ -1,0 +1,3 @@
+public enum Estado19 {
+    CLOCKWISE, COUNTER_CW, ALTERNATING, STOP, SWEEP;
+}

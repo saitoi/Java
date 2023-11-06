@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98a1b49b-643c-45b3-9cb0-101028847094" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Tl0qmdGMPluLRxVlDQhUMUrVio" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Aula 4 - Trabalho 1" />
+      <recent name="$PROJECT_DIR$/Aula 4 - Trabalho/Aula 4 - Trabalho 1" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Exercise" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Exercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Exercicios" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98a1b49b-643c-45b3-9cb0-101028847094" name="Changes" comment="" />
+      <created>1691602556095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691602556095</updated>
+      <workItem from="1691602557148" duration="6535000" />
+      <workItem from="1691698380331" duration="2495000" />
+      <workItem from="1691778218840" duration="5684000" />
+      <workItem from="1691878081161" duration="4748000" />
+      <workItem from="1691940569522" duration="6899000" />
+      <workItem from="1692028766273" duration="8261000" />
+      <workItem from="1692106970353" duration="3479000" />
+      <workItem from="1692371794732" duration="4956000" />
+      <workItem from="1692466833755" duration="4063000" />
+      <workItem from="1692655263210" duration="599000" />
+      <workItem from="1692709419611" duration="5927000" />
+      <workItem from="1692828693836" duration="11425000" />
+      <workItem from="1692882614550" duration="14305000" />
+      <workItem from="1693012962996" duration="3000" />
+      <workItem from="1693257599896" duration="5881000" />
+      <workItem from="1693487175801" duration="5583000" />
+      <workItem from="1693785269199" duration="4975000" />
+      <workItem from="1693920558578" duration="1212000" />
+      <workItem from="1694353565216" duration="5819000" />
+      <workItem from="1694524332139" duration="5738000" />
+      <workItem from="1694697057092" duration="14843000" />
+      <workItem from="1694739454258" duration="10061000" />
+      <workItem from="1694783810065" duration="5955000" />
+      <workItem from="1694795595860" duration="185000" />
+      <workItem from="1694795913789" duration="51000" />
+      <workItem from="1694795999636" duration="23853000" />
+      <workItem from="1694884209344" duration="3790000" />
+      <workItem from="1694896358139" duration="3159000" />
+      <workItem from="1695000507281" duration="7828000" />
+      <workItem from="1695030288961" duration="17662000" />
+      <workItem from="1695128969255" duration="2777000" />
+      <workItem from="1695301433994" duration="6825000" />
+      <workItem from="1695432179802" duration="8128000" />
+      <workItem from="1695483284552" duration="18702000" />
+      <workItem from="1695605978361" duration="366000" />
+      <workItem from="1695906228268" duration="9746000" />
+      <workItem from="1695994576852" duration="9655000" />
+      <workItem from="1696095937036" duration="1236000" />
+      <workItem from="1696108835600" duration="16048000" />
+      <workItem from="1696193752810" duration="3154000" />
+      <workItem from="1696285966992" duration="3875000" />
+      <workItem from="1696302361818" duration="669000" />
+      <workItem from="1696467647221" duration="2426000" />
+      <workItem from="1696507892411" duration="8529000" />
+      <workItem from="1696522590073" duration="5505000" />
+      <workItem from="1696547217232" duration="3467000" />
+      <workItem from="1696642549298" duration="2125000" />
+      <workItem from="1696705667000" duration="7445000" />
+      <workItem from="1696778159285" duration="9000000" />
+      <workItem from="1696943962100" duration="1630000" />
+      <workItem from="1697401934847" duration="4902000" />
+      <workItem from="1697418843964" duration="3450000" />
+      <workItem from="1697549680697" duration="788000" />
+      <workItem from="1697653992201" duration="667000" />
+      <workItem from="1697721664124" duration="9196000" />
+      <workItem from="1698325386641" duration="7682000" />
+      <workItem from="1698358481725" duration="1813000" />
+      <workItem from="1698766493062" duration="598000" />
+      <workItem from="1698874284693" duration="3117000" />
+      <workItem from="1698877417945" duration="5218000" />
+      <workItem from="1698940444205" duration="5575000" />
+      <workItem from="1699221902038" duration="27000" />
+      <workItem from="1699221937563" duration="2982000" />
+      <workItem from="1699234709899" duration="2844000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
