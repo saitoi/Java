@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Pessoal.iml" filepath="$PROJECT_DIR$/Pessoal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projeto_de_Padrao/Projeto_de_Padrao.iml" filepath="$PROJECT_DIR$/Projeto_de_Padrao/Projeto_de_Padrao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factory/Factory.iml" filepath="$PROJECT_DIR$/Factory/Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashSet/HashSet.iml" filepath="$PROJECT_DIR$/HashSet/HashSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Objeto Trabalho/Objeto Trabalho.iml" filepath="$PROJECT_DIR$/Objeto Trabalho/Objeto Trabalho.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RoboNovo/RoboNovo.iml" filepath="$PROJECT_DIR$/RoboNovo/RoboNovo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
     </modules>
   </component>
 </project>
