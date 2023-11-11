@@ -1,62 +1,38 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
 
 public class Main {
     public static void main(String[] args) {
-        List<Conta> listaContas = new ArrayList<>();
+        HashSet<Conta> listaContas = new HashSet<>();
         Conta contaAtual;
         int opcao;
 
-        contaAtual = Conta.cadastrar(listaContas);   /* Uma conta deve ser cadastrada pelo menos uma vez */
+        try {
+            contaAtual = Conta.cadastrar(listaContas);
 
-        while (true) {
-            menu();
-            opcao = Global.scanner.nextInt();
-            Global.scanner.nextLine();
-            switch (opcao) {
-                case 0 -> {
-                    return;
-                }
-                case 1 -> contaAtual = Conta.cadastrar(listaContas);
-                case 2 -> {
-                    try {
-                        Global.print("Quanto você deseja depositar? ");
-                        contaAtual.depositar(Global.scanner.nextDouble());
-                    } catch (SaldoExcedidoException e) {
-                        Global.print("Erro: " + e);
+            while (true) {
+                menu();
+                opcao = Global.scanner.nextInt();
+                Global.scanner.nextLine();
+                switch (opcao) {
+                    case 0 -> {
+                        return;
                     }
-                }
-                case 3 -> {
-                    Global.print("Quanto você deseja retirar? ");
-                    contaAtual.retirar(Global.scanner.nextDouble());
-                }
-                case 4 -> {
-                    try {
-                        Conta contaDestino = null;
-                        Global.print("Para qual conta você deseja transferir?\nEscolha um id: ");
-                        Global.id = Global.scanner.nextInt();
-
+                    case 1 -> contaAtual = Conta.cadastrar(listaContas);
+                    case 2 -> contaAtual.depositar();
+                    case 3 -> contaAtual.retirar();
+                    case 4 -> contaAtual.transferencia(listaContas);
+                    case 5 -> {
                         for (Conta conta : listaContas) {
-                            if (conta.getId() == Global.id) {
-                                contaDestino = conta;
-                                Global.print("Conta foi encontrada.");
-                            }
+                            Global.print("Conta: " + conta.getId() + ", Saldo: " + conta.getSaldo());
                         }
-                        if (contaDestino == null) {
-                            Global.print("Conta destino não foi encontrada..");
-                        }
-                        Global.print("Quanto você deseja transferir? ");
-                        contaAtual.transferencia(contaDestino, Global.scanner.nextDouble());
-                    } catch(NullPointerException e) {
-                        Global.print("Erro: " + e);
-                    } catch(SaldoExcedidoException e) {
-                        Global.print("Erro: " + e);
                     }
-                }
-                default -> {
-                    Global.print("Opção não é válida, selecione novamente.");
+                    default -> {
+                        Global.print("Opção não é válida, selecione novamente.");
+                    }
                 }
             }
+        } catch(IllegalArgumentException e) {
+            Global.print("Entrada de valores negativos não é aceita.");
         }
     }
     private static void menu() {
@@ -68,6 +44,7 @@ public class Main {
                 2 - Depositar
                 3 - Retirar/Sacar
                 4 - Transferir p/outra conta
+                5 - Imprimir lista de contas
                 Escolha uma opção:\s""");
     }
     public static void validarEntrada(int valor) {
@@ -75,4 +52,5 @@ public class Main {
             throw new IllegalArgumentException("Valores negativos não são permitidos.");
         }
     }
+
 }
