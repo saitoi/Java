@@ -1,6 +1,6 @@
 public class SenhaSingleton {
     private static SenhaSingleton uniqueInstance;
-    private boolean usada;
+    public boolean usada;
     private int senhaAtual;
 
     private SenhaSingleton() {

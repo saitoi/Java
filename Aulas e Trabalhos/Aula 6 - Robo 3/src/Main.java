@@ -9,6 +9,9 @@ public class Main {
         List<SenhaSingleton> listaSenhas = new ArrayList<>();
         List<Robot19> listaRobos = new ArrayList<>();
 
+        /* Estado inicial */
+        r1.semSenha();
+
         while( true ) {
             Move m1 = r1.MOVE();
             if( m1 == Move.STOP )
